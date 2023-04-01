@@ -1,0 +1,19 @@
+﻿# .NET Core #
+bin/
+obj/
+*.suo
+*.user
+*.vs/
+*.cache
+*.log
+
+# Build results #
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Other files and directories #
+*.DS_Store
