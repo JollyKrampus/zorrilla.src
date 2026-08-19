@@ -13,4 +13,6 @@ Monolith repository for the Zorrilla project.
 
 ## GitHub Pages
 
-The live site is served from the separate [`zorrilla.web`](https://github.com/JollyKrampus/zorrilla.web) repository at <https://jollykrampus.github.io/zorrilla.web/>. Its contents are a copy of `SinglePageApp/wwwroot/`. To publish site changes, copy the updated `wwwroot` files into `zorrilla.web` and push.
+The live site is served at <https://jollykrampus.github.io/zorrilla.web/> from the separate [`zorrilla.web`](https://github.com/JollyKrampus/zorrilla.web) repository. That repo is kept (archived) solely because the Pages URL is tied to its name; its content and history are consolidated here, and the site source of truth is `SinglePageApp/wwwroot/`.
+
+To publish site changes: unarchive `zorrilla.web`, copy the updated `SinglePageApp/wwwroot/` files into its root, push to its `main` branch, then re-archive it.
