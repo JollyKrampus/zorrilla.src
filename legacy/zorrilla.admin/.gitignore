@@ -1,0 +1,46 @@
+# .NET Core related
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# MSTest test Results
+[TestResults]/
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*
+
+# Build results - Uncomment if you don't want to check these in
+#obj/
+#bin/
+
+# Files built by the publish process
+#publish/
+
+# Packages directory - Uncomment if you don't want to check these in
+#packages/
+
+# Logs
+*.log
+
+# User-specific files
+*.rsuser
+
+# Azure DevOps pipeline specific
+azure-pipelines.yml
+*.azcli
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,csharp,visualstudio,aspnetcore
+
+# Exclude obj and bin folders
+**/bin/
+**/obj/
